@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Bachiou Olawalé</h1>
+        <nav>
+            <ul>
+                <li><a href="#apropos">A propos</a></li>
+                <li><a href="#projets">Mes projets</a></li>
+                <li><a href="#competences">Mes compétences</a></li>
+                <li><a href="contacts">Contactez-moi</a></li>
+            </ul>
+        </nav>
+    </header>
+                
+                        <div class="cool">
+                    <div class="text">
+                        <h3>Je suis Bachiou Olawalé, devéloppeur web en devenir</h3>
+                    
+                    <p>Passionné par la technologie et le devéloppement web, je crée des solutions sous mesure et adapté à vos attente. Je suis la personne qui vous faut pour tous vos projets en devéloppement web que ce soit le front end ou le back end</p>
+                        <a href="projets.html">Voir mes projets</a>
+                    </div>
+                    <div class="image">
+                            <img src="IMG/Illustration.png" alt="">
+                    </div>
+
+                          </div>
+
+                                            <h2>A propos</h2>
+                     <section class="apropos">
+                            
+                        <div class="contenu">
+                            <p>Je m'appelle Bachiou Olawalé pationné par la création de sites web modernes et interactifs. Je suis actuellement étudiant en développement web avec le projet D-CLIC organisé par <em>l'Organisation Internationale de la Francophonie</em>. Je cherche à améliorer mes compétences en HTML, CSS et JAVASCRIPT. J'adore transformer mes idées en projets concrets et j'aime expérimenter les nouvelles technologies</p>
+                            <a href="cv ola.pdf" download="">Téléchargez mon CV</a>
+                        </div>
+                            <img src="IMG/profil.png" alt="Ma photo de profil">
+                     </section> 
+                     
+
+
+                                        <h2>Mes projets</h2>
+                     
+                     <section class="projets">
+
+                                
+                        <div class="projet1">
+                            <h3>Projet 1</h3>
+                            <p>Dans ce projet je met en pratique toutes les notions acquises sur HTML. C'est un projet qui aborde de façon profonde tout ce qui touche à ce langage.</p>
+                            <a href="exercice1.html">Voir</a>
+
+                        </div>
+
+                                <div class="projet2">
+                                    <h3>Projet 2</h3>
+                                    <p>Dans ce projet je met en pratique toutes les notions acquises sur CSS. C'est un projet qui aborde de façon profonde tout ce qui touche à ce langage de balisage</p>
+
+                                    <a href="exercice2.html">Voir</a>
+                                </div>
+
+
+                                <div class="projet3">
+                                    <h3>Projet 3</h3>
+                                    <P>Dans ce projet je met en pratique toutes les notions acquises sur HTML. C'est un projet qui aborde de façon profonde tout ce qui touche à ce langage</P>
+                                    <a href="exercice3.html">Voir</a>
+                                </div>
+
+                     </section>
+
+                                    <h2>Mes compétences</h2>
+                     <section class="competences">
+                        
+                        <div class="hard">
+                                <h3>Hard skills</h3>
+                                <p>HTML</p>
+                                <P>CSS</P>
+                                <p>JavaScript</p>
+                        </div>
+
+                            <div class="soft">
+                                <h3>Soft skills</h3>
+                                <p>Résolution de problème</p>
+                                <p>Adaptabilité</p>
+                                <p>Ponctualité</p>
+
+                            </div>
+                        
+                     </section>
+
+
+                                        <h2>Vous avez un projet à réaliser? <br> N'hésitez pas à me contacter</h2>
+                     <section class="contacts">
+                        
+
+
+                        <form onsubmit="returnverifierFormulaire()" action="traitement.php" method="post" name="formulaire" class="formulaire">
+                            <input type="text" name="nom" id="nom" placeholder="Votre nom ici "><br>
+                            <input type="text" name="prenom" id="prenom" placeholder="Votre prénom complet"><br>
+                            <input type="email" name="email" id="email" placeholder="votre meilleure adresse mail"><br>
+                        
+                            <input type="text" name="idee" id="idee" placeholder="Quelle est votre idée de projet?"><br>
+                            <textarea name="description" id="description" placeholder="Décrivez plus explicitement votre idée ici !" maxlength="300"></textarea><br>
+                            <button type="submit">Envoyez</button>
+                        </form>
+                        <p id="erreur"></p>
+
+                     </section>
+                
+                     <footer> Portfolio réalisé par Bachiou Olawalé - HTML - CSS - JAVASCRIPT. Tous droits reservés @ 2026 !</footer>
+
+
+
+
+                        <script src="script.js"></script>
+                    </body>
+</html>

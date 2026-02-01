@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(151, 149, 149);
+    color: #111827;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+header{
+   background-color: #111827;
+   color: #f9fafb;
+   
+    
+}
+
+header h1{
+    text-align: center;
+}
+
+nav ul {
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    gap: 40px;
+    padding: 40px;
+    justify-content: center;
+    
+}
+
+
+ul:hover {
+    background-color: #059669;
+    border: 2px;
+}
+
+.cool {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+
+}
+img {
+    width: 30%;
+}
+
+
+.apropos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+
+img {
+    width: 30%;
+    border-radius: 50%;
+}
+
+
+.projets {
+    display: flex;
+    padding: 30px;
+    gap: 20px;
+}
+
+.projet1 {
+    background-color: #059669;
+    border: solid 1px;
+}
+
+.projet2 {
+    background-color: #059669;
+    border: solid 1px;
+}
+
+.projet3 {
+    background-color: #059669;
+    border: solid 1px;
+}
+
+
+
+.competences {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    gap: 40px;
+}
+
+
+
+.contacts {
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    color: #111827;
+    text-align: center;
+    font-size: 40px;
+}
+
+h3 {
+    text-align: center;
+}
+
+
+
+footer {
+    background-color: #111827;
+    margin: 40px;
+    color: #f9fafb;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+a:hover {
+    background-color: #059669;
+    border: solid;
+    color: white;
+}
+
+button:hover{
+    color: #f9fafb;
+    border: solid;
+    background-color: #059669;
+}
